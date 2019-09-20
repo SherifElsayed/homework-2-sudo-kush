@@ -1,12 +1,13 @@
 #!/bin/bash
 #Problem 1
 
-echo "You entered $1 "
+echo -n "Enter your desired Temperature in F "
+read t 
 echo " " 
 
-echo "Your Degrees in Celsius is" 
 
-echo "scale=2; ($1-32)*5/9" | bc
-echo "scale=2; ($1-32)*(5/9)+273.15" | bc
+
+printf "= " 
+echo "scale=2; ($t-32)*5/9+273" | bc
 
 
