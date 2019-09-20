@@ -24,8 +24,8 @@ Name your script `largest_five.sh`.
 
 ## Exercise 4
 
-For this problem, you need to find a partner (or team of partners) in the 
-class. You are then to do the following:
+For this problem, you need to find a partner (or team of partners) in the class.
+You are then to do the following:
 
   1. Add your partner's repository as a remote
   2. Fetch and checkout your partners {\tt master} branch as a new branch named `dev` in your own, local repository
